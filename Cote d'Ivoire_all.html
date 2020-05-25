@@ -1,12 +1,12 @@
 <!-- LineChart generated in R 3.6.2 by googleVis 0.6.4 package -->
-<!-- Sun May 24 18:31:34 2020 -->
+<!-- Mon May 25 12:39:17 2020 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataLineChartID4898320c15a1 () {
+function gvisDataLineChartID489887b5d41 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -301,6 +301,10 @@ var datajson =
 [
 "2020-05-23",
 1.056635672
+],
+[
+"2020-05-24",
+0.4208754209
 ] 
 ];
 data.addColumn('string','data_actual');
@@ -311,7 +315,7 @@ return(data);
 
 
 // jsData 
-function gvisDataLineChartID48982ed8478 () {
+function gvisDataLineChartID48985a59173c () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -532,6 +536,10 @@ var datajson =
 3.448275862
 ],
 [
+"2020-05-24",
+0
+],
+[
 "2020-05-23",
 3.333333333
 ] 
@@ -544,7 +552,7 @@ return(data);
 
 
 // jsData 
-function gvisDataLineChartID4898363e40ba () {
+function gvisDataLineChartID4898441720d5 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -815,6 +823,10 @@ var datajson =
 [
 "2020-05-23",
 3.535353535
+],
+[
+"2020-05-24",
+2.543068089
 ] 
 ];
 data.addColumn('string','data_actual');
@@ -824,8 +836,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartLineChartID4898320c15a1() {
-var data = gvisDataLineChartID4898320c15a1();
+function drawChartLineChartID489887b5d41() {
+var data = gvisDataLineChartID489887b5d41();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "COVID-19 - % Confirmed  -  Cote d'Ivoire";
@@ -835,32 +847,32 @@ options["width"] = 460;
 options["height"] = 600;
 
 
-    chartLineChartID4898320c15a1 = new google.visualization.ChartWrapper({
+    chartLineChartID489887b5d41 = new google.visualization.ChartWrapper({
     dataTable: data,       
     chartType: 'LineChart',
-    containerId: 'LineChartID4898320c15a1',
+    containerId: 'LineChartID489887b5d41',
     options: options
     });
-    chartLineChartID4898320c15a1.draw();
+    chartLineChartID489887b5d41.draw();
     
 
 }
 
-  function openEditorLineChartID4898320c15a1() {
+  function openEditorLineChartID489887b5d41() {
   var editor = new google.visualization.ChartEditor();
   google.visualization.events.addListener(editor, 'ok',
   function() { 
-  chartLineChartID4898320c15a1 = editor.getChartWrapper();  
-  chartLineChartID4898320c15a1.draw(document.getElementById('LineChartID4898320c15a1')); 
+  chartLineChartID489887b5d41 = editor.getChartWrapper();  
+  chartLineChartID489887b5d41.draw(document.getElementById('LineChartID489887b5d41')); 
   }); 
-  editor.openDialog(chartLineChartID4898320c15a1);
+  editor.openDialog(chartLineChartID489887b5d41);
   }
     
 
 
 // jsDrawChart
-function drawChartLineChartID48982ed8478() {
-var data = gvisDataLineChartID48982ed8478();
+function drawChartLineChartID48985a59173c() {
+var data = gvisDataLineChartID48985a59173c();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "COVID-19 - % Deaths  -  Cote d'Ivoire";
@@ -870,32 +882,32 @@ options["width"] = 460;
 options["height"] = 600;
 
 
-    chartLineChartID48982ed8478 = new google.visualization.ChartWrapper({
+    chartLineChartID48985a59173c = new google.visualization.ChartWrapper({
     dataTable: data,       
     chartType: 'LineChart',
-    containerId: 'LineChartID48982ed8478',
+    containerId: 'LineChartID48985a59173c',
     options: options
     });
-    chartLineChartID48982ed8478.draw();
+    chartLineChartID48985a59173c.draw();
     
 
 }
 
-  function openEditorLineChartID48982ed8478() {
+  function openEditorLineChartID48985a59173c() {
   var editor = new google.visualization.ChartEditor();
   google.visualization.events.addListener(editor, 'ok',
   function() { 
-  chartLineChartID48982ed8478 = editor.getChartWrapper();  
-  chartLineChartID48982ed8478.draw(document.getElementById('LineChartID48982ed8478')); 
+  chartLineChartID48985a59173c = editor.getChartWrapper();  
+  chartLineChartID48985a59173c.draw(document.getElementById('LineChartID48985a59173c')); 
   }); 
-  editor.openDialog(chartLineChartID48982ed8478);
+  editor.openDialog(chartLineChartID48985a59173c);
   }
     
 
 
 // jsDrawChart
-function drawChartLineChartID4898363e40ba() {
-var data = gvisDataLineChartID4898363e40ba();
+function drawChartLineChartID4898441720d5() {
+var data = gvisDataLineChartID4898441720d5();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "COVID-19 - % Recovered  -  Cote d'Ivoire";
@@ -905,25 +917,25 @@ options["width"] = 460;
 options["height"] = 600;
 
 
-    chartLineChartID4898363e40ba = new google.visualization.ChartWrapper({
+    chartLineChartID4898441720d5 = new google.visualization.ChartWrapper({
     dataTable: data,       
     chartType: 'LineChart',
-    containerId: 'LineChartID4898363e40ba',
+    containerId: 'LineChartID4898441720d5',
     options: options
     });
-    chartLineChartID4898363e40ba.draw();
+    chartLineChartID4898441720d5.draw();
     
 
 }
 
-  function openEditorLineChartID4898363e40ba() {
+  function openEditorLineChartID4898441720d5() {
   var editor = new google.visualization.ChartEditor();
   google.visualization.events.addListener(editor, 'ok',
   function() { 
-  chartLineChartID4898363e40ba = editor.getChartWrapper();  
-  chartLineChartID4898363e40ba.draw(document.getElementById('LineChartID4898363e40ba')); 
+  chartLineChartID4898441720d5 = editor.getChartWrapper();  
+  chartLineChartID4898441720d5.draw(document.getElementById('LineChartID4898441720d5')); 
   }); 
-  editor.openDialog(chartLineChartID4898363e40ba);
+  editor.openDialog(chartLineChartID4898441720d5);
   }
     
  
@@ -943,9 +955,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartLineChartID4898320c15a1);
+callbacks.push(drawChartLineChartID489887b5d41);
 })();
-function displayChartLineChartID4898320c15a1() {
+function displayChartLineChartID489887b5d41() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -982,9 +994,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartLineChartID48982ed8478);
+callbacks.push(drawChartLineChartID48985a59173c);
 })();
-function displayChartLineChartID48982ed8478() {
+function displayChartLineChartID48985a59173c() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1021,9 +1033,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartLineChartID4898363e40ba);
+callbacks.push(drawChartLineChartID4898441720d5);
 })();
-function displayChartLineChartID4898363e40ba() {
+function displayChartLineChartID4898441720d5() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1047,15 +1059,15 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID4898320c15a1"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID489887b5d41"></script>
 
 
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID48982ed8478"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID48985a59173c"></script>
 
 
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID4898363e40ba"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID4898441720d5"></script>
  
 <table cellspacing="20" bgcolor="#AABBCC">
 <tr>
@@ -1066,8 +1078,8 @@ callbacks.shift()();
 <td>
 
 <!-- divChart -->
-<input type='button' onclick='openEditorLineChartID4898320c15a1()' value='Graph'/>  
-<div id="LineChartID4898320c15a1" 
+<input type='button' onclick='openEditorLineChartID489887b5d41()' value='Graph'/>  
+<div id="LineChartID489887b5d41" 
   style="width: 460; height: 600;">
 </div>
 
@@ -1075,8 +1087,8 @@ callbacks.shift()();
 <td>
 
 <!-- divChart -->
-<input type='button' onclick='openEditorLineChartID48982ed8478()' value='Graph'/>  
-<div id="LineChartID48982ed8478" 
+<input type='button' onclick='openEditorLineChartID48985a59173c()' value='Graph'/>  
+<div id="LineChartID48985a59173c" 
   style="width: 460; height: 600;">
 </div>
 
@@ -1088,8 +1100,8 @@ callbacks.shift()();
 <td>
 
 <!-- divChart -->
-<input type='button' onclick='openEditorLineChartID4898363e40ba()' value='Graph'/>  
-<div id="LineChartID4898363e40ba" 
+<input type='button' onclick='openEditorLineChartID4898441720d5()' value='Graph'/>  
+<div id="LineChartID4898441720d5" 
   style="width: 460; height: 600;">
 </div>
 

@@ -1,12 +1,12 @@
 <!-- LineChart generated in R 3.6.2 by googleVis 0.6.4 package -->
-<!-- Sun May 24 19:15:36 2020 -->
+<!-- Mon May 25 11:45:18 2020 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataLineChartID48984d7277a0 () {
+function gvisDataLineChartID489810785383 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -361,6 +361,10 @@ var datajson =
 [
 "2020-05-23",
 0.05858421481
+],
+[
+"2020-05-24",
+0.03578865174
 ] 
 ];
 data.addColumn('string','data_actual');
@@ -371,7 +375,7 @@ return(data);
 
 
 // jsData 
-function gvisDataLineChartID48985f665c38 () {
+function gvisDataLineChartID489815034ee0 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -690,6 +694,10 @@ var datajson =
 [
 "2020-05-23",
 0.1049868766
+],
+[
+"2020-05-24",
+0.05246589717
 ] 
 ];
 data.addColumn('string','data_actual');
@@ -700,7 +708,7 @@ return(data);
 
 
 // jsData 
-function gvisDataLineChartID48987f8c66c9 () {
+function gvisDataLineChartID48982abc5af6 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -1027,6 +1035,10 @@ var datajson =
 [
 "2020-05-23",
 0.3571428571
+],
+[
+"2020-05-24",
+0.3558718861
 ] 
 ];
 data.addColumn('string','data_actual');
@@ -1036,8 +1048,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartLineChartID48984d7277a0() {
-var data = gvisDataLineChartID48984d7277a0();
+function drawChartLineChartID489810785383() {
+var data = gvisDataLineChartID489810785383();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "COVID-19 - % Confirmed  -  Switzerland";
@@ -1047,32 +1059,32 @@ options["width"] = 460;
 options["height"] = 600;
 
 
-    chartLineChartID48984d7277a0 = new google.visualization.ChartWrapper({
+    chartLineChartID489810785383 = new google.visualization.ChartWrapper({
     dataTable: data,       
     chartType: 'LineChart',
-    containerId: 'LineChartID48984d7277a0',
+    containerId: 'LineChartID489810785383',
     options: options
     });
-    chartLineChartID48984d7277a0.draw();
+    chartLineChartID489810785383.draw();
     
 
 }
 
-  function openEditorLineChartID48984d7277a0() {
+  function openEditorLineChartID489810785383() {
   var editor = new google.visualization.ChartEditor();
   google.visualization.events.addListener(editor, 'ok',
   function() { 
-  chartLineChartID48984d7277a0 = editor.getChartWrapper();  
-  chartLineChartID48984d7277a0.draw(document.getElementById('LineChartID48984d7277a0')); 
+  chartLineChartID489810785383 = editor.getChartWrapper();  
+  chartLineChartID489810785383.draw(document.getElementById('LineChartID489810785383')); 
   }); 
-  editor.openDialog(chartLineChartID48984d7277a0);
+  editor.openDialog(chartLineChartID489810785383);
   }
     
 
 
 // jsDrawChart
-function drawChartLineChartID48985f665c38() {
-var data = gvisDataLineChartID48985f665c38();
+function drawChartLineChartID489815034ee0() {
+var data = gvisDataLineChartID489815034ee0();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "COVID-19 - % Deaths  -  Switzerland";
@@ -1082,32 +1094,32 @@ options["width"] = 460;
 options["height"] = 600;
 
 
-    chartLineChartID48985f665c38 = new google.visualization.ChartWrapper({
+    chartLineChartID489815034ee0 = new google.visualization.ChartWrapper({
     dataTable: data,       
     chartType: 'LineChart',
-    containerId: 'LineChartID48985f665c38',
+    containerId: 'LineChartID489815034ee0',
     options: options
     });
-    chartLineChartID48985f665c38.draw();
+    chartLineChartID489815034ee0.draw();
     
 
 }
 
-  function openEditorLineChartID48985f665c38() {
+  function openEditorLineChartID489815034ee0() {
   var editor = new google.visualization.ChartEditor();
   google.visualization.events.addListener(editor, 'ok',
   function() { 
-  chartLineChartID48985f665c38 = editor.getChartWrapper();  
-  chartLineChartID48985f665c38.draw(document.getElementById('LineChartID48985f665c38')); 
+  chartLineChartID489815034ee0 = editor.getChartWrapper();  
+  chartLineChartID489815034ee0.draw(document.getElementById('LineChartID489815034ee0')); 
   }); 
-  editor.openDialog(chartLineChartID48985f665c38);
+  editor.openDialog(chartLineChartID489815034ee0);
   }
     
 
 
 // jsDrawChart
-function drawChartLineChartID48987f8c66c9() {
-var data = gvisDataLineChartID48987f8c66c9();
+function drawChartLineChartID48982abc5af6() {
+var data = gvisDataLineChartID48982abc5af6();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "COVID-19 - % Recovered  -  Switzerland";
@@ -1117,25 +1129,25 @@ options["width"] = 460;
 options["height"] = 600;
 
 
-    chartLineChartID48987f8c66c9 = new google.visualization.ChartWrapper({
+    chartLineChartID48982abc5af6 = new google.visualization.ChartWrapper({
     dataTable: data,       
     chartType: 'LineChart',
-    containerId: 'LineChartID48987f8c66c9',
+    containerId: 'LineChartID48982abc5af6',
     options: options
     });
-    chartLineChartID48987f8c66c9.draw();
+    chartLineChartID48982abc5af6.draw();
     
 
 }
 
-  function openEditorLineChartID48987f8c66c9() {
+  function openEditorLineChartID48982abc5af6() {
   var editor = new google.visualization.ChartEditor();
   google.visualization.events.addListener(editor, 'ok',
   function() { 
-  chartLineChartID48987f8c66c9 = editor.getChartWrapper();  
-  chartLineChartID48987f8c66c9.draw(document.getElementById('LineChartID48987f8c66c9')); 
+  chartLineChartID48982abc5af6 = editor.getChartWrapper();  
+  chartLineChartID48982abc5af6.draw(document.getElementById('LineChartID48982abc5af6')); 
   }); 
-  editor.openDialog(chartLineChartID48987f8c66c9);
+  editor.openDialog(chartLineChartID48982abc5af6);
   }
     
  
@@ -1155,9 +1167,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartLineChartID48984d7277a0);
+callbacks.push(drawChartLineChartID489810785383);
 })();
-function displayChartLineChartID48984d7277a0() {
+function displayChartLineChartID489810785383() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1194,9 +1206,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartLineChartID48985f665c38);
+callbacks.push(drawChartLineChartID489815034ee0);
 })();
-function displayChartLineChartID48985f665c38() {
+function displayChartLineChartID489815034ee0() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1233,9 +1245,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartLineChartID48987f8c66c9);
+callbacks.push(drawChartLineChartID48982abc5af6);
 })();
-function displayChartLineChartID48987f8c66c9() {
+function displayChartLineChartID48982abc5af6() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -1259,15 +1271,15 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID48984d7277a0"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID489810785383"></script>
 
 
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID48985f665c38"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID489815034ee0"></script>
 
 
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID48987f8c66c9"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID48982abc5af6"></script>
  
 <table cellspacing="20" bgcolor="#AABBCC">
 <tr>
@@ -1278,8 +1290,8 @@ callbacks.shift()();
 <td>
 
 <!-- divChart -->
-<input type='button' onclick='openEditorLineChartID48984d7277a0()' value='Graph'/>  
-<div id="LineChartID48984d7277a0" 
+<input type='button' onclick='openEditorLineChartID489810785383()' value='Graph'/>  
+<div id="LineChartID489810785383" 
   style="width: 460; height: 600;">
 </div>
 
@@ -1287,8 +1299,8 @@ callbacks.shift()();
 <td>
 
 <!-- divChart -->
-<input type='button' onclick='openEditorLineChartID48985f665c38()' value='Graph'/>  
-<div id="LineChartID48985f665c38" 
+<input type='button' onclick='openEditorLineChartID489815034ee0()' value='Graph'/>  
+<div id="LineChartID489815034ee0" 
   style="width: 460; height: 600;">
 </div>
 
@@ -1300,8 +1312,8 @@ callbacks.shift()();
 <td>
 
 <!-- divChart -->
-<input type='button' onclick='openEditorLineChartID48987f8c66c9()' value='Graph'/>  
-<div id="LineChartID48987f8c66c9" 
+<input type='button' onclick='openEditorLineChartID48982abc5af6()' value='Graph'/>  
+<div id="LineChartID48982abc5af6" 
   style="width: 460; height: 600;">
 </div>
 
