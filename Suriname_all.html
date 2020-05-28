@@ -1,12 +1,12 @@
 <!-- LineChart generated in R 3.6.2 by googleVis 0.6.4 package -->
-<!-- Wed May 27 10:40:39 2020 -->
+<!-- Thu May 28 10:27:26 2020 -->
 
 
 <!-- jsHeader -->
 <script type="text/javascript">
  
 // jsData 
-function gvisDataLineChartID4898676335e () {
+function gvisDataLineChartID4898783f6153 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -301,6 +301,10 @@ var datajson =
 [
 "2020-05-18",
 9.090909091
+],
+[
+"2020-05-27",
+8.333333333
 ] 
 ];
 data.addColumn('string','data_actual');
@@ -311,11 +315,15 @@ return(data);
 
 
 // jsData 
-function gvisDataLineChartID48982025ea4 () {
+function gvisDataLineChartID48986835f88 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
  [
+"2020-05-27",
+0
+],
+[
 "2020-05-26",
 0
 ],
@@ -536,7 +544,7 @@ return(data);
 
 
 // jsData 
-function gvisDataLineChartID489852b01244 () {
+function gvisDataLineChartID489846d12a81 () {
 var data = new google.visualization.DataTable();
 var datajson =
 [
@@ -635,6 +643,10 @@ var datajson =
 [
 "2020-04-29",
 12.5
+],
+[
+"2020-05-27",
+0
 ],
 [
 "2020-05-26",
@@ -740,8 +752,8 @@ return(data);
 }
  
 // jsDrawChart
-function drawChartLineChartID4898676335e() {
-var data = gvisDataLineChartID4898676335e();
+function drawChartLineChartID4898783f6153() {
+var data = gvisDataLineChartID4898783f6153();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "COVID-19 - % Confirmed  -  Suriname";
@@ -751,32 +763,32 @@ options["width"] = 460;
 options["height"] = 600;
 
 
-    chartLineChartID4898676335e = new google.visualization.ChartWrapper({
+    chartLineChartID4898783f6153 = new google.visualization.ChartWrapper({
     dataTable: data,       
     chartType: 'LineChart',
-    containerId: 'LineChartID4898676335e',
+    containerId: 'LineChartID4898783f6153',
     options: options
     });
-    chartLineChartID4898676335e.draw();
+    chartLineChartID4898783f6153.draw();
     
 
 }
 
-  function openEditorLineChartID4898676335e() {
+  function openEditorLineChartID4898783f6153() {
   var editor = new google.visualization.ChartEditor();
   google.visualization.events.addListener(editor, 'ok',
   function() { 
-  chartLineChartID4898676335e = editor.getChartWrapper();  
-  chartLineChartID4898676335e.draw(document.getElementById('LineChartID4898676335e')); 
+  chartLineChartID4898783f6153 = editor.getChartWrapper();  
+  chartLineChartID4898783f6153.draw(document.getElementById('LineChartID4898783f6153')); 
   }); 
-  editor.openDialog(chartLineChartID4898676335e);
+  editor.openDialog(chartLineChartID4898783f6153);
   }
     
 
 
 // jsDrawChart
-function drawChartLineChartID48982025ea4() {
-var data = gvisDataLineChartID48982025ea4();
+function drawChartLineChartID48986835f88() {
+var data = gvisDataLineChartID48986835f88();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "COVID-19 - % Deaths  -  Suriname";
@@ -786,32 +798,32 @@ options["width"] = 460;
 options["height"] = 600;
 
 
-    chartLineChartID48982025ea4 = new google.visualization.ChartWrapper({
+    chartLineChartID48986835f88 = new google.visualization.ChartWrapper({
     dataTable: data,       
     chartType: 'LineChart',
-    containerId: 'LineChartID48982025ea4',
+    containerId: 'LineChartID48986835f88',
     options: options
     });
-    chartLineChartID48982025ea4.draw();
+    chartLineChartID48986835f88.draw();
     
 
 }
 
-  function openEditorLineChartID48982025ea4() {
+  function openEditorLineChartID48986835f88() {
   var editor = new google.visualization.ChartEditor();
   google.visualization.events.addListener(editor, 'ok',
   function() { 
-  chartLineChartID48982025ea4 = editor.getChartWrapper();  
-  chartLineChartID48982025ea4.draw(document.getElementById('LineChartID48982025ea4')); 
+  chartLineChartID48986835f88 = editor.getChartWrapper();  
+  chartLineChartID48986835f88.draw(document.getElementById('LineChartID48986835f88')); 
   }); 
-  editor.openDialog(chartLineChartID48982025ea4);
+  editor.openDialog(chartLineChartID48986835f88);
   }
     
 
 
 // jsDrawChart
-function drawChartLineChartID489852b01244() {
-var data = gvisDataLineChartID489852b01244();
+function drawChartLineChartID489846d12a81() {
+var data = gvisDataLineChartID489846d12a81();
 var options = {};
 options["allowHtml"] = true;
 options["title"] = "COVID-19 - % Recovered  -  Suriname";
@@ -821,25 +833,25 @@ options["width"] = 460;
 options["height"] = 600;
 
 
-    chartLineChartID489852b01244 = new google.visualization.ChartWrapper({
+    chartLineChartID489846d12a81 = new google.visualization.ChartWrapper({
     dataTable: data,       
     chartType: 'LineChart',
-    containerId: 'LineChartID489852b01244',
+    containerId: 'LineChartID489846d12a81',
     options: options
     });
-    chartLineChartID489852b01244.draw();
+    chartLineChartID489846d12a81.draw();
     
 
 }
 
-  function openEditorLineChartID489852b01244() {
+  function openEditorLineChartID489846d12a81() {
   var editor = new google.visualization.ChartEditor();
   google.visualization.events.addListener(editor, 'ok',
   function() { 
-  chartLineChartID489852b01244 = editor.getChartWrapper();  
-  chartLineChartID489852b01244.draw(document.getElementById('LineChartID489852b01244')); 
+  chartLineChartID489846d12a81 = editor.getChartWrapper();  
+  chartLineChartID489846d12a81.draw(document.getElementById('LineChartID489846d12a81')); 
   }); 
-  editor.openDialog(chartLineChartID489852b01244);
+  editor.openDialog(chartLineChartID489846d12a81);
   }
     
  
@@ -859,9 +871,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartLineChartID4898676335e);
+callbacks.push(drawChartLineChartID4898783f6153);
 })();
-function displayChartLineChartID4898676335e() {
+function displayChartLineChartID4898783f6153() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -898,9 +910,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartLineChartID48982025ea4);
+callbacks.push(drawChartLineChartID48986835f88);
 })();
-function displayChartLineChartID48982025ea4() {
+function displayChartLineChartID48986835f88() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -937,9 +949,9 @@ if (newPackage)
   pkgs.push(chartid);
   
 // Add the drawChart function to the global list of callbacks
-callbacks.push(drawChartLineChartID489852b01244);
+callbacks.push(drawChartLineChartID489846d12a81);
 })();
-function displayChartLineChartID489852b01244() {
+function displayChartLineChartID489846d12a81() {
   var pkgs = window.__gvisPackages = window.__gvisPackages || [];
   var callbacks = window.__gvisCallbacks = window.__gvisCallbacks || [];
   window.clearTimeout(window.__gvisLoad);
@@ -963,15 +975,15 @@ callbacks.shift()();
 </script>
  
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID4898676335e"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID4898783f6153"></script>
 
 
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID48982025ea4"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID48986835f88"></script>
 
 
 <!-- jsChart -->  
-<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID489852b01244"></script>
+<script type="text/javascript" src="https://www.google.com/jsapi?callback=displayChartLineChartID489846d12a81"></script>
  
 <table cellspacing="20" bgcolor="#AABBCC">
 <tr>
@@ -982,8 +994,8 @@ callbacks.shift()();
 <td>
 
 <!-- divChart -->
-<input type='button' onclick='openEditorLineChartID4898676335e()' value='Graph'/>  
-<div id="LineChartID4898676335e" 
+<input type='button' onclick='openEditorLineChartID4898783f6153()' value='Graph'/>  
+<div id="LineChartID4898783f6153" 
   style="width: 460; height: 600;">
 </div>
 
@@ -991,8 +1003,8 @@ callbacks.shift()();
 <td>
 
 <!-- divChart -->
-<input type='button' onclick='openEditorLineChartID48982025ea4()' value='Graph'/>  
-<div id="LineChartID48982025ea4" 
+<input type='button' onclick='openEditorLineChartID48986835f88()' value='Graph'/>  
+<div id="LineChartID48986835f88" 
   style="width: 460; height: 600;">
 </div>
 
@@ -1004,8 +1016,8 @@ callbacks.shift()();
 <td>
 
 <!-- divChart -->
-<input type='button' onclick='openEditorLineChartID489852b01244()' value='Graph'/>  
-<div id="LineChartID489852b01244" 
+<input type='button' onclick='openEditorLineChartID489846d12a81()' value='Graph'/>  
+<div id="LineChartID489846d12a81" 
   style="width: 460; height: 600;">
 </div>
 
